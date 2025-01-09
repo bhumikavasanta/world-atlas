@@ -12,7 +12,7 @@ const About = () => {
                 {
                     countryData?.map((country)=>{
                         const {id, countryName, capital, population, interestingFact } = country;
-                        return <div className='card'>
+                        return <div className='card' key={id}>
                         <div className='container-card bg-blue-box'>
                             <p className='card-title'>
                                 {countryName}
