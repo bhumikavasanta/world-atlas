@@ -50,6 +50,7 @@ a {
 
 button {
   display: flex;
+  justify-content: center;
   gap: 1.2rem;
   align-items: center;
   font-family: inherit;
