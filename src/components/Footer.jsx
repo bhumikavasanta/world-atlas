@@ -31,13 +31,13 @@ const Footer = () => {
 
             <div className="copyright-area">
                 <div className="container">
-                    <div className="grid grid-two-cols">
+                    {/* <div className="grid grid-two-cols"> */}
                         <div className="copyright-text">
                             <p>
                                 Copyright &copy; 2025
                             </p>
                         </div>
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
         </footer>

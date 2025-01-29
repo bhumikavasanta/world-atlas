@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaLongArrowAltRight } from 'react-icons/fa';
 import About from './About';
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -15,9 +16,9 @@ const Home = () => {
                         Discover the history, culture, and beauty of every nation. Sort,
                         search, and filter through countries to find the details you need.
                     </p>
-                    <button className='btn btn-darken btn-inline bg-white-box'>
+                    <NavLink  to="/about" className='explore-button'>
                         Start Exploring <FaLongArrowAltRight />
-                    </button>
+                    </NavLink>
                 </div>
                 <div className='hero-image'>
                     <img src="/world.png" alt="World" className='banner-image'/>

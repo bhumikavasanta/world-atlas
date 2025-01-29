@@ -29,10 +29,11 @@ p,
 li,
 a,
 button {
-  font-size: 1.7rem;
+  font-size: 2rem;
   letter-spacing: 0.1rem;
   line-height: 1.6;
   color: #fff;
+  text-decoration: none;
 }
 
 li {
@@ -63,15 +64,10 @@ button {
   transition: all 0.3s ease-in-out;
   background: #202020;
   color: #fff;
-  border-radius: 1.5rem;
+  border-radius: 2.5rem;
   /*thisdoesn'twork*/
   border-width: 0.1rem;
   border-style: solid;
-  -webkit-border-radius: 1.5rem;
-  -moz-border-radius: 1.5rem;
-  -ms-border-radius: 1.5rem;
-  -o-border-radius: 1.5rem;
-  margin-top: 1.6rem;
 }
 
 /* Layout  */
@@ -209,6 +205,39 @@ nav ul {
   }
 }
 
+.explore-button {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  /* line-height: 1.5; */
+  cursor: pointer;
+  padding: 0.6rem 2.4rem;
+  text-align: center;
+  outline: none;
+  border: none;
+  text-transform: unset;
+  transition: all 0.3s ease-in-out;
+  background: #202020;
+  color: #fff;
+  border-radius: 1.5rem;
+  /*thisdoesn'twork*/
+  border-width: 0.1rem;
+  border-style: solid;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  margin-top: 1.6rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.6;
+  text-decoration: none;
+  width: fit-content;
+}
+
+
 /* About Section  */
 
 .section-about {
@@ -229,8 +258,8 @@ nav ul {
 
 .container-title {
   text-align: center;
-  padding: 0 !important;
-  margin-bottom: 40px;
+  padding: 40px;
+  /* margin-bottom: 40px; */
   font-size: 40px;
   color: #fff;
   font-weight: 600;
@@ -315,6 +344,7 @@ nav ul {
   display: flex;
   gap: 2.4rem;
   align-items: center;
+  place-self: center;
 
   & .icon {
     color: #3a4ed5;
@@ -362,6 +392,9 @@ ul {
 .copyright-area {
   background: #202020;
   padding: 25px 0;
+}
+.copyright-text {
+  justify-items: center;
 }
 .copyright-text p {
   margin: 0;
@@ -455,6 +488,8 @@ country Card
 
   & input {
     font-family: "urbanist";
+    padding: 1rem;
+    border-radius: 2.5rem;
     font-size: 1.55rem;
     font-weight: bold;
     letter-spacing: 0.1rem;

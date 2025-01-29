@@ -27,7 +27,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <NavLink to="/country">
-                                    Country
+                                    Countries
                                 </NavLink>
                             </li>
                             <li>
