@@ -132,6 +132,10 @@ nav ul {
 
 /* media queries  */
 @media screen and (max-width: 998px) {
+  h1 {
+    font-size: xx-large;
+  }
+
   .menu-web {
     display: none;
   }
